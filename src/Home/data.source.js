@@ -1,4 +1,3 @@
-import React from 'react';
 export const Nav20DataSource = {
   isScrollLink: true,
   wrapper: { className: 'header2 home-page-wrapper jrhtw9ph4a-editor_css' },
