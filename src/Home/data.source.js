@@ -1,17 +1,25 @@
+import React from 'react';
 export const Nav20DataSource = {
   isScrollLink: true,
   wrapper: { className: 'header2 home-page-wrapper jrhtw9ph4a-editor_css' },
   page: { className: 'home-page' },
   logo: {
-    className: 'header2-logo',
+    className: 'header2-logo l645s4e16xn-editor_css',
     children:
       'https://gw.alipayobjects.com/os/s/prod/seeconf/9b458a789d9a000312899b42a7542b9c.svg',
   },
   LinkMenu: {
     className: 'header2-menu',
     children: [
+      { name: 'linkNav', to: '', children: '导航名称', className: 'menu-item' },
       {
-        name: 'linkNav',
+        name: 'linkNav~l645sedem79',
+        to: '当前页面 ID 地址，参考如上',
+        children: '导航名称',
+        className: 'menu-item',
+      },
+      {
+        name: 'linkNav~l645sf34z1i',
         to: '当前页面 ID 地址，参考如上',
         children: '导航名称',
         className: 'menu-item',
@@ -60,38 +68,63 @@ export const Nav20DataSource = {
     ],
   },
 };
-export const Banner30DataSource = {
-  wrapper: { className: 'banner3' },
-  textWrapper: {
-    className: 'banner3-text-wrapper',
+export const Teams00DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper teams0-wrapper l6462vexyz-editor_css',
+  },
+  OverPack: {
+    playScale: 0.3,
+    className: 'home-page teams0 l648ziutqcl-editor_css',
+  },
+  BannerAnim: {
+    className: 'banner-anim',
     children: [
       {
-        name: 'nameEn',
-        className: 'banner3-name-en',
-        children: 'Seeking Experience & Engineering Conference',
-      },
-      {
-        name: 'slogan',
-        className: 'banner3-slogan',
-        children: '首届蚂蚁金服体验科技大会',
-        texty: true,
-      },
-      {
-        name: 'name',
-        className: 'banner3-name',
-        children: '探索极致用户体验与最佳工程实践探索',
-      },
-      { name: 'button', className: 'banner3-button', children: '立即报名' },
-      {
-        name: 'time',
-        className: 'banner3-time',
-        children: '2018.01.06 / 中国·杭州',
+        name: 'elem0',
+        className: 'teams0-banner-user-elem l647hi6r3x-editor_css',
+        titleWrapper: {
+          className: 'teams0-content-wrapper l6460etc2s-editor_css',
+          children: [
+            {
+              name: 'image',
+              children: 'https://avatars.githubusercontent.com/u/28731460?v=4',
+              className: 'teams0-image l646bdlw1ug-editor_css',
+            },
+            {
+              name: 'title~l647ceu3eip',
+              className: 'l6490ok1hd8-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>Angel Angeles</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <p>
+                    Software Engineer with 3 years of experience developing with
+                    JavaScript/React<br />
+                  </p>
+                </span>
+              ),
+              className: 'teams0-content l646jx5j8zp-editor_css',
+            },
+          ],
+        },
       },
     ],
   },
 };
 export const Content80DataSource = {
-  wrapper: { className: 'home-page-wrapper content8-wrapper' },
+  wrapper: {
+    className: 'home-page-wrapper content8-wrapper l64954bld0m-editor_css',
+  },
   page: { className: 'home-page content8' },
   OverPack: { playScale: 0.3 },
   titleWrapper: {
@@ -103,7 +136,31 @@ export const Content80DataSource = {
           'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
         className: 'title-image',
       },
-      { name: 'title', children: '特邀嘉宾', className: 'title-h1' },
+      {
+        name: 'title',
+        children: (
+          <span>
+            <span>
+              <p>PORTFOLIO</p>
+            </span>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content~l649ppgmsh',
+        className: '',
+        children: (
+          <span>
+            <span>
+              <p>
+                Below we show the list of developed projects with their
+                respective github repos, links and credentials to access.
+              </p>
+            </span>
+          </span>
+        ),
+      },
     ],
   },
   block: {
@@ -119,12 +176,53 @@ export const Content80DataSource = {
           img: {
             className: 'content8-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+              'https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/01/47/c8/0147c897-6d09-c9ba-f585-d6e9714003cc/source/512x512bb.jpg',
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: {
+            className: 'content8-title',
+            children: (
+              <span>
+                <p>LityStyles</p>
+              </span>
+            ),
+          },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <p>Is an applicacion for</p>
+                                      <p>&nbsp;automate and dynamic the</p>
+                                      <p>&nbsp;process of beauty salons</p>
+                                      <p>and barbershops.</p>
+                                      <p>
+                                        <br />
+                                      </p>
+                                      <p>user: aangeles@litystyles.com</p>
+                                      <p>pass: Password.01*</p>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -136,14 +234,43 @@ export const Content80DataSource = {
         children: {
           className: 'content8-block',
           img: {
-            className: 'content8-img',
+            className: 'content8-img l649u1b5t6s-editor_css',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/Backlinks.jpg?raw=true',
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: {
+            className: 'content8-title',
+            children: (
+              <span>
+                <p>Backlinks</p>
+              </span>
+            ),
+          },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>This is a application used to&nbsp;</p>
+                        <p>find web pages with dofollow&nbsp;</p>
+                        <p>links.&nbsp;</p>
+                        <p>
+                          <br />
+                        </p>
+                        <p>
+                          <br />
+                        </p>
+                        <p>user: test@user.com</p>
+                        <p>pass: Password.01*</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -157,12 +284,30 @@ export const Content80DataSource = {
           img: {
             className: 'content8-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/SEO_content.jpg?raw=true',
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: {
+            className: 'content8-title',
+            children: (
+              <span>
+                <p>Google Content Search</p>
+              </span>
+            ),
+          },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <p>It is an application that</p>
+                    <p>&nbsp;performs content searches</p>
+                    <p>&nbsp;for articles based on</p>
+                    <p>&nbsp;keywords. (developing)</p>
+                  </span>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -176,88 +321,33 @@ export const Content80DataSource = {
           img: {
             className: 'content8-img',
             children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+              'https://i.pinimg.com/474x/cd/3f/d0/cd3fd02c51a1ee95d54b1f5302107fd8.jpg',
           },
-          title: { className: 'content8-title', children: 'Jack' },
+          title: {
+            className: 'content8-title',
+            children: (
+              <span>
+                <span>
+                  <p>
+                    Veterinary O<span>ffice</span>
+                  </p>
+                </span>
+              </span>
+            ),
+          },
           content: {
             className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block4',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block5',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block6',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
-          },
-        },
-      },
-      {
-        name: 'block7',
-        md: 6,
-        xs: 24,
-        className: 'content8-block-wrapper',
-        children: {
-          className: 'content8-block',
-          img: {
-            className: 'content8-img',
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
-          },
-          title: { className: 'content8-title', children: 'Jack' },
-          content: {
-            className: 'content8-content',
-            children: '公司+职位 信息暂缺',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <p>It is an application to receive</p>
+                    <p>&nbsp;and answer questions about</p>
+                    <p>&nbsp;dogs.&nbsp;(developing)</p>
+                  </span>
+                </span>
+              </span>
+            ),
           },
         },
       },
@@ -387,165 +477,6 @@ export const Content90DataSource = {
             className: 'block-content',
             children:
               '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
-          },
-        },
-      },
-    ],
-  },
-};
-export const Content100DataSource = {
-  wrapper: { className: 'home-page-wrapper content10-wrapper' },
-  Content: {
-    className: 'icon-wrapper',
-    children: {
-      icon: {
-        className: 'icon',
-        children:
-          'https://gw.alipayobjects.com/zos/rmsportal/zIUVomgdcKEKcnnQdOzw.svg',
-        name: '主要图标',
-      },
-      iconShadow: {
-        className: 'icon-shadow',
-        children:
-          'https://gw.alipayobjects.com/zos/rmsportal/WIePwurYppfVvDNASZRN.svg',
-        name: '图标影阴',
-      },
-      url: { children: 'https://gaode.com/place/B0FFH3KPBX', name: '跳转地址' },
-      title: { children: '大会地址', name: '弹框标题' },
-      content: {
-        children: '蚂蚁 Z 空间  浙江省杭州市西湖区西溪路556号',
-        name: '弹框内容',
-      },
-    },
-  },
-};
-export const Content110DataSource = {
-  OverPack: {
-    className: 'home-page-wrapper content11-wrapper',
-    playScale: 0.3,
-  },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'image',
-        children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
-      },
-      { name: 'title', children: '丰富的特色展台', className: 'title-h1' },
-      {
-        name: 'content',
-        children:
-          '特色展台包括 Ant Design 、AntV、AntG、Egg 等明星产品，更有产品专家',
-        className: 'title-content',
-      },
-      {
-        name: 'content2',
-        children: '现场问诊，为你答疑解难',
-        className: 'title-content',
-      },
-    ],
-  },
-  button: {
-    className: '',
-    children: { a: { className: 'button', href: '#', children: '立即报名' } },
-  },
-};
-export const Content120DataSource = {
-  wrapper: { className: 'home-page-wrapper content12-wrapper' },
-  page: { className: 'home-page content12' },
-  OverPack: { playScale: 0.3, className: '' },
-  titleWrapper: {
-    className: 'title-wrapper',
-    children: [
-      {
-        name: 'image',
-        children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image',
-      },
-      { name: 'title', children: '特别鸣谢', className: 'title-h1' },
-    ],
-  },
-  block: {
-    className: 'img-wrapper',
-    children: [
-      {
-        name: 'block0',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: 'block-content' },
-          img: {
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/TFicUVisNHTOEeMYXuQF.svg',
-          },
-        },
-      },
-      {
-        name: 'block1',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: 'block-content' },
-          img: {
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/hkLGkrlCEkGZeMQlnEkD.svg',
-          },
-        },
-      },
-      {
-        name: 'block2',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: 'block-content' },
-          img: {
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/bqyPRSZmhvrsfJrBvASi.svg',
-          },
-        },
-      },
-      {
-        name: 'block3',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: 'block-content' },
-          img: {
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/UcsyszzOabdCYDkoPPnM.svg',
-          },
-        },
-      },
-      {
-        name: 'block4',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: 'block-content' },
-          img: {
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/kRBeaICGexAmVjqBEqgw.svg',
-          },
-        },
-      },
-      {
-        name: 'block5',
-        className: 'block',
-        md: 8,
-        xs: 24,
-        children: {
-          wrapper: { className: 'block-content' },
-          img: {
-            children:
-              'https://gw.alipayobjects.com/zos/rmsportal/ftBIiyJcCHpHEioRvPsV.svg',
           },
         },
       },
