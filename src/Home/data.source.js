@@ -181,7 +181,7 @@ export const Content80DataSource = {
             className: 'content8-title',
             children: (
               <span>
-                <p>LityStyles</p>
+                <p><a href='https://app.litystyles.com/' target='_blank' rel='noopener noreferrer'>LityStyles</a></p>
               </span>
             ),
           },
@@ -209,6 +209,10 @@ export const Content80DataSource = {
                                       </p>
                                       <p>user: aangeles@litystyles.com</p>
                                       <p>pass: Password.01*</p>
+                                      <p>
+                                        <br />
+                                      </p>
+                                      <a href="https://github.com/angeld287/litystyles-amplify" target="_blank" rel='noopener noreferrer'>Github Repo</a>
                                     </span>
                                   </span>
                                 </span>
@@ -264,6 +268,10 @@ export const Content80DataSource = {
                         </p>
                         <p>user: test@user.com</p>
                         <p>pass: Password.01*</p>
+                        <p>
+                          <br />
+                        </p>
+                        <a href="https://github.com/angeld287/google_do_follow_search" target="_blank" rel='noopener noreferrer'>Github Repo</a>
                       </span>
                     </span>
                   </span>
