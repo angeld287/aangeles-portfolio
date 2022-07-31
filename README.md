@@ -1,6 +1,9 @@
-# Landing create-react-app Example
+# Personal Portfolio
 
-详细使用请查看 landing 里的 [use in create-react-app](https://landing.ant.design/docs/use/create-react-app)
+This is a simple landing page obtained from [Landing Ant Design](https://landing.ant.design/) in which the presentation of my projects and the trajectory of my career are shown.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The link to visit this web site is https://www.aangeles.com/
 
+## Run Dockerized Web Site in Production Build
+- `docker-compose build`
+- `docker run -p 80:80 -d --name portfolio [image-name]`

@@ -3,10 +3,10 @@ ENV NODE_ENV production
 # Add a work directory
 WORKDIR /app
 # Cache and Install dependencies
-RUN yarn global add react-app-rewired customize-cra less less-loader react-scripts
 COPY package.json .
 COPY yarn.lock .
 RUN yarn install --production
+RUN yarn
 # Copy app files
 COPY . .
 # Build the app
