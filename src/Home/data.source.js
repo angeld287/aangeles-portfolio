@@ -1,5 +1,5 @@
-import { GithubOutlined, LoginOutlined } from '@ant-design/icons';
-import { Button, Input, Tooltip } from 'antd';
+import { GithubOutlined, InfoCircleOutlined, LoginOutlined } from '@ant-design/icons';
+import { Button, Input, Tag, Tooltip } from 'antd';
 import React from 'react';
 export const Nav20DataSource = {
   isScrollLink: true,
@@ -440,9 +440,11 @@ export const Content80DataSource = {
             className: 'content8-title',
             children: (
               <span>
-                <span>
-                  <p><a href='https://littydoctors.com/' target='_blank' rel='noopener noreferrer'>LittyDoctors</a></p>
-                </span>
+                <Tooltip title="It is an application created for Doctors. The process work with: patient history, medical examination and prescriptions.">
+                  <span>
+                    <p><a href='https://littydoctors.com/' target='_blank' rel='noopener noreferrer'>LittyDoctors</a></p>
+                  </span>
+                </Tooltip>
               </span>
             ),
           },
@@ -452,10 +454,13 @@ export const Content80DataSource = {
               <span>
                 <span>
                   <span>
-                    <p>It is an application created </p>
-                    <p>for Doctors. The process work with:</p>
-                    <p>patient history, medical examination</p>
-                    <p>and prescriptions.</p>
+                    <p>It is an application created to manage</p>
+                    <p>
+                      medical consultations process.
+                      <Tooltip style={{ marginRight: 1 }} title="It is an application created for Doctors. The process work with: patient history, medical examination and prescriptions.">
+                        <InfoCircleOutlined />
+                      </Tooltip>
+                    </p>
                     <p>
                       <br />
                     </p>
@@ -473,6 +478,9 @@ export const Content80DataSource = {
                         </a>
                       </Tooltip>
                     </Input.Group>
+                    <div style={{ marginTop: 3, textAlign: 'left' }}>
+                      <Tag color="#ffac31">AWS Amplify</Tag>
+                    </div>
                   </span>
                 </span>
               </span>
