@@ -1,3 +1,5 @@
+import { GithubOutlined, LoginOutlined } from '@ant-design/icons';
+import { Button, Input, Tooltip } from 'antd';
 import React from 'react';
 export const Nav20DataSource = {
   isScrollLink: true,
@@ -457,13 +459,20 @@ export const Content80DataSource = {
                     <p>
                       <br />
                     </p>
-                    <p>user: usertest33</p>
-                    <p>pass: Password.01*</p>
-                    <p></p>
-                    <p>
-                      <br />
-                    </p>
-                    <a href="https://github.com/angeld287/littydoctors-amplify" target="_blank" rel='noopener noreferrer'>Github Repo</a>
+                    <Input.Group compact>
+                      <Input style={{ width: '50%' }} readOnly defaultValue="usertest33" />
+                      <Input style={{ width: '50%' }} readOnly defaultValue="Password.01*" />
+                      <Tooltip title="Go to the app">
+                        <a href="https://littydoctors.com/" target="_blank" rel='noopener noreferrer'>
+                          <Button icon={<LoginOutlined />} />
+                        </a>
+                      </Tooltip>
+                      <Tooltip title="Go to github repo">
+                        <a href="https://github.com/angeld287/littydoctors-amplify" target="_blank" rel='noopener noreferrer'>
+                          <Button icon={<GithubOutlined />} />
+                        </a>
+                      </Tooltip>
+                    </Input.Group>
                   </span>
                 </span>
               </span>
