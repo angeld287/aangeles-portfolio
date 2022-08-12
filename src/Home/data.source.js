@@ -181,7 +181,7 @@ export const Content80DataSource = {
             className: 'content8-title',
             children: (
               <span>
-                <p><a href='https://app.litystyles.com/' target='_blank' rel='noopener noreferrer'>LityStyles</a></p>
+                <p><a href='https://d1qsphr6lnzkbu.cloudfront.net/' target='_blank' rel='noopener noreferrer'>LityStyles</a></p>
               </span>
             ),
           },
@@ -230,6 +230,70 @@ export const Content80DataSource = {
         },
       },
       {
+        name: 'block4',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/administration.png?raw=true',
+          },
+          title: {
+            className: 'content8-title',
+            children: (
+              <span>
+                <p><a href='https://d2f6edhj1tplr2.cloudfront.net/' target='_blank' rel='noopener noreferrer'>LityStyles Admin</a></p>
+              </span>
+            ),
+          },
+          content: {
+            className: 'content8-content',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <p>Is an applicacion created</p>
+                                      <p>to manage de services,</p>
+                                      <p>products, types and clients</p>
+                                      <p>of the litystyles application.</p>
+                                      <p>
+                                        <br />
+                                      </p>
+                                      <p>user: aangeles@litystyles.com</p>
+                                      <p>pass: Password.01*</p>
+                                      <p>
+                                        <br />
+                                      </p>
+                                      <a href="https://github.com/angeld287/litystyles-amplify" target="_blank" rel='noopener noreferrer'>Github Repo</a>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
         name: 'block1',
         md: 6,
         xs: 24,
@@ -245,7 +309,7 @@ export const Content80DataSource = {
             className: 'content8-title',
             children: (
               <span>
-                <p>Backlinks</p>
+                <p><a href='https://d1sp9464lifjbw.cloudfront.net/' target='_blank' rel='noopener noreferrer'>Backlinks</a></p>
               </span>
             ),
           },
@@ -351,6 +415,55 @@ export const Content80DataSource = {
                     <p>It is an application to receive</p>
                     <p>&nbsp;and answer questions about</p>
                     <p>&nbsp;dogs.&nbsp;(developing)</p>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block5',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/icon-dra.jpg?raw=true',
+          },
+          title: {
+            className: 'content8-title',
+            children: (
+              <span>
+                <span>
+                  <p><a href='https://littydoctors.com/' target='_blank' rel='noopener noreferrer'>LittyDoctors</a></p>
+                </span>
+              </span>
+            ),
+          },
+          content: {
+            className: 'content8-content',
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <p>It is an application created </p>
+                    <p>for Doctors. The process work with:</p>
+                    <p>patient history, medical examination</p>
+                    <p>and prescriptions.</p>
+                    <p>
+                      <br />
+                    </p>
+                    <p>user: usertest33</p>
+                    <p>pass: Password.01*</p>
+                    <p></p>
+                    <p>
+                      <br />
+                    </p>
+                    <a href="https://github.com/angeld287/littydoctors-amplify" target="_blank" rel='noopener noreferrer'>Github Repo</a>
                   </span>
                 </span>
               </span>
