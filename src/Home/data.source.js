@@ -202,19 +202,31 @@ export const Content80DataSource = {
                                 <span>
                                   <span>
                                     <span>
-                                      <p>Is an applicacion for</p>
-                                      <p>&nbsp;automate and dynamic the</p>
-                                      <p>&nbsp;process of beauty salons</p>
-                                      <p>and barbershops.</p>
-                                      <p>
-                                        <br />
+                                      <p>Applicacion for beauty</p>
+                                      <p>salons and barbershops.
+                                        <Tooltip style={{ marginRight: 1 }} title="Is an applicacion for automate and dynamic the process of beauty salons and barbershops.">
+                                          <InfoCircleOutlined />
+                                        </Tooltip>
                                       </p>
-                                      <p>user: aangeles@litystyles.com</p>
-                                      <p>pass: Password.01*</p>
-                                      <p>
-                                        <br />
-                                      </p>
-                                      <a href="https://github.com/angeld287/litystyles-amplify" target="_blank" rel='noopener noreferrer'>Github Repo</a>
+                                      <div style={{ marginTop: 5, marginBottom: 5, textAlign: 'center' }}>
+                                        <Tag color="orange">AWS</Tag>
+                                        <Tag color="blue">React</Tag>
+                                        <Tag color="magenta">GraphQl</Tag>
+                                        <Tooltip title="Go to github repo">
+                                          <a href="https://github.com/angeld287/litystyles-amplify" target="_blank" rel='noopener noreferrer'>
+                                            <Button icon={<GithubOutlined />} />
+                                          </a>
+                                        </Tooltip>
+                                      </div>
+                                      <Input.Group compact>
+                                        <Input style={{ width: '50%' }} readOnly defaultValue="aangeles@litystyles.com" />
+                                        <Input style={{ width: '50%' }} readOnly defaultValue="Password.01*" />
+                                        <Tooltip title="Go to the app">
+                                          <a href="https://d1qsphr6lnzkbu.cloudfront.net" target="_blank" rel='noopener noreferrer'>
+                                            <Button icon={<LoginOutlined />} />
+                                          </a>
+                                        </Tooltip>
+                                      </Input.Group>
                                     </span>
                                   </span>
                                 </span>
@@ -266,19 +278,30 @@ export const Content80DataSource = {
                                 <span>
                                   <span>
                                     <span>
-                                      <p>Is an applicacion created</p>
-                                      <p>to manage de services,</p>
-                                      <p>products, types and clients</p>
-                                      <p>of the litystyles application.</p>
-                                      <p>
-                                        <br />
+                                      <p>Application for administrate</p>
+                                      <p>litystyles sistem.
+                                        <Tooltip style={{ marginRight: 1 }} title="Is an applicacion for automate and dynamic the process of beauty salons and barbershops.">
+                                          <InfoCircleOutlined />
+                                        </Tooltip>
                                       </p>
-                                      <p>user: aangeles@litystyles.com</p>
-                                      <p>pass: Password.01*</p>
-                                      <p>
-                                        <br />
-                                      </p>
-                                      <a href="https://github.com/angeld287/litystyles-amplify" target="_blank" rel='noopener noreferrer'>Github Repo</a>
+                                      <div style={{ marginTop: 5, marginBottom: 5 }}>
+                                        <Tag color="orange">AWS</Tag>
+                                        <Tag color="blue">React</Tag>
+                                        <Tooltip title="Go to github repo">
+                                          <a href="https://github.com/angeld287/litystyles-admin-amplify" target="_blank" rel='noopener noreferrer'>
+                                            <Button icon={<GithubOutlined />} />
+                                          </a>
+                                        </Tooltip>
+                                      </div>
+                                      <Input.Group compact>
+                                        <Input style={{ width: '45%' }} readOnly defaultValue="aangeles@litystyles.com" />
+                                        <Input style={{ width: '45%' }} readOnly defaultValue="Password.01*" />
+                                        <Tooltip title="Go to the app">
+                                          <a href="https://d2f6edhj1tplr2.cloudfront.net/" target="_blank" rel='noopener noreferrer'>
+                                            <Button icon={<LoginOutlined />} />
+                                          </a>
+                                        </Tooltip>
+                                      </Input.Group>
                                     </span>
                                   </span>
                                 </span>
@@ -324,20 +347,30 @@ export const Content80DataSource = {
                     <span>
                       <span>
                         <p>This is a application used to&nbsp;</p>
-                        <p>find web pages with dofollow&nbsp;</p>
-                        <p>links.&nbsp;</p>
-                        <p>
-                          <br />
+                        <p>find web pages with dofollow&nbsp;
+                          <Tooltip style={{ marginRight: 1 }} title="This is a application used to find web pages with dofollow links.">
+                            <InfoCircleOutlined />
+                          </Tooltip>
                         </p>
-                        <p>
-                          <br />
-                        </p>
-                        <p>user: test@user.com</p>
-                        <p>pass: Password.01*</p>
-                        <p>
-                          <br />
-                        </p>
-                        <a href="https://github.com/angeld287/google_do_follow_search" target="_blank" rel='noopener noreferrer'>Github Repo</a>
+                        <div style={{ marginTop: 5, marginBottom: 5 }}>
+                          <Tag color="green">Node</Tag>
+                          <Tag color="blue">React</Tag>
+                          <Tag color="blue">Docker</Tag>
+                          <Tooltip title="Go to github repo">
+                            <a href="https://github.com/angeld287/google_do_follow_search" target="_blank" rel='noopener noreferrer'>
+                              <Button icon={<GithubOutlined />} />
+                            </a>
+                          </Tooltip>
+                        </div>
+                        <Input.Group compact>
+                          <Input style={{ width: '45%' }} readOnly defaultValue="test@user.com" />
+                          <Input style={{ width: '45%' }} readOnly defaultValue="Password.01*" />
+                          <Tooltip title="Go to the app">
+                            <a href="https://d1sp9464lifjbw.cloudfront.net/" target="_blank" rel='noopener noreferrer'>
+                              <Button icon={<LoginOutlined />} />
+                            </a>
+                          </Tooltip>
+                        </Input.Group>
                       </span>
                     </span>
                   </span>
@@ -376,7 +409,7 @@ export const Content80DataSource = {
                     <p>It is an application that</p>
                     <p>&nbsp;performs content searches</p>
                     <p>&nbsp;for articles based on</p>
-                    <p>&nbsp;keywords. (developing)</p>
+                    <p>&nbsp;keywords. <Tag color="red">developing</Tag></p>
                   </span>
                 </span>
               </span>
@@ -416,7 +449,7 @@ export const Content80DataSource = {
                   <span>
                     <p>It is an application to receive</p>
                     <p>&nbsp;and answer questions about</p>
-                    <p>&nbsp;dogs.&nbsp;(developing)</p>
+                    <p>&nbsp;dogs.&nbsp; <Tag color="red">developing</Tag></p>
                   </span>
                 </span>
               </span>
@@ -461,9 +494,15 @@ export const Content80DataSource = {
                         <InfoCircleOutlined />
                       </Tooltip>
                     </p>
-                    <p>
-                      <br />
-                    </p>
+                    <div style={{ marginTop: 5, marginBottom: 5, textAlign: 'center' }}>
+                      <Tag color="orange">AWS</Tag>
+                      <Tag color="blue">React</Tag>
+                      <Tooltip title="Go to github repo">
+                        <a href="https://github.com/angeld287/littydoctors-amplify" target="_blank" rel='noopener noreferrer'>
+                          <Button icon={<GithubOutlined />} />
+                        </a>
+                      </Tooltip>
+                    </div>
                     <Input.Group compact>
                       <Input style={{ width: '50%' }} readOnly defaultValue="usertest33" />
                       <Input style={{ width: '50%' }} readOnly defaultValue="Password.01*" />
@@ -472,15 +511,7 @@ export const Content80DataSource = {
                           <Button icon={<LoginOutlined />} />
                         </a>
                       </Tooltip>
-                      <Tooltip title="Go to github repo">
-                        <a href="https://github.com/angeld287/littydoctors-amplify" target="_blank" rel='noopener noreferrer'>
-                          <Button icon={<GithubOutlined />} />
-                        </a>
-                      </Tooltip>
                     </Input.Group>
-                    <div style={{ marginTop: 3, textAlign: 'left' }}>
-                      <Tag color="#ffac31">AWS Amplify</Tag>
-                    </div>
                   </span>
                 </span>
               </span>
