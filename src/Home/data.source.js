@@ -475,7 +475,7 @@ export const Content80DataSource = {
               <span>
                 <Tooltip title="It is an application created for Doctors. The process work with: patient history, medical examination and prescriptions.">
                   <span>
-                    <p><a href='https://littydoctors.com/' target='_blank' rel='noopener noreferrer'>LittyDoctors</a></p>
+                    <p><a href='https://d2ua7j9m3qijc6.cloudfront.net' target='_blank' rel='noopener noreferrer'>LittyDoctors</a></p>
                   </span>
                 </Tooltip>
               </span>
@@ -507,7 +507,7 @@ export const Content80DataSource = {
                       <Input style={{ width: '50%' }} readOnly defaultValue="usertest33" />
                       <Input style={{ width: '50%' }} readOnly defaultValue="Password.01*" />
                       <Tooltip title="Go to the app">
-                        <a href="https://littydoctors.com/" target="_blank" rel='noopener noreferrer'>
+                        <a href="https://d2ua7j9m3qijc6.cloudfront.net" target="_blank" rel='noopener noreferrer'>
                           <Button icon={<LoginOutlined />} />
                         </a>
                       </Tooltip>
