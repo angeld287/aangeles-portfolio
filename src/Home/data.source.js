@@ -162,7 +162,7 @@ export const Content120DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/React-removebg-2.png?raw=true',
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/react-removebg-2.png?raw=true',
           },
         },
       },
