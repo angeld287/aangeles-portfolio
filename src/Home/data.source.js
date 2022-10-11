@@ -122,6 +122,118 @@ export const Teams00DataSource = {
     ],
   },
 };
+export const Content120DataSource = {
+  wrapper: { className: 'home-page-wrapper content12-wrapper' },
+  page: { className: 'home-page content12' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'image',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      {
+        name: 'title',
+        children: (
+          <span>
+            <span>
+              <span>
+                <p>TECHNOLOGIES</p>
+              </span>
+            </span>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+    ],
+  },
+  block: {
+    className: 'img-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/React.jpg?raw=true',
+          },
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/JS.png?raw=true',
+          },
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/node.jpg?raw=true',
+          },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/docker.png?raw=true',
+          },
+        },
+      },
+      {
+        name: 'block4',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/SQL.png?raw=true',
+          },
+        },
+      },
+      {
+        name: 'block5',
+        className: 'block',
+        md: 8,
+        xs: 24,
+        children: {
+          wrapper: { className: 'block-content' },
+          img: {
+            children:
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/amplify.png?raw=true',
+          },
+        },
+      },
+    ],
+  },
+};
 export const Content80DataSource = {
   wrapper: {
     className: 'home-page-wrapper content8-wrapper l64954bld0m-editor_css',

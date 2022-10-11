@@ -5,6 +5,7 @@ import { enquireScreen } from 'enquire-js';
 
 import Nav2 from './Nav2';
 import Teams0 from './Teams0';
+import Content12 from './Content12';
 import Content8 from './Content8';
 import Content9 from './Content9';
 import Footer2 from './Footer2';
@@ -12,6 +13,7 @@ import Footer2 from './Footer2';
 import {
   Nav20DataSource,
   Teams00DataSource,
+  Content120DataSource,
   Content80DataSource,
   Content90DataSource,
   Footer20DataSource,
@@ -64,6 +66,12 @@ export default class Home extends React.Component {
         id="Teams0_0"
         key="Teams0_0"
         dataSource={Teams00DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content12
+        id="Content12_0"
+        key="Content12_0"
+        dataSource={Content120DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content8
