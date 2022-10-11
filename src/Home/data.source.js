@@ -162,7 +162,7 @@ export const Content120DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/React.jpg?raw=true',
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/React-removebg-2.png?raw=true',
           },
         },
       },
@@ -175,7 +175,7 @@ export const Content120DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/JS.png?raw=true',
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/JS-removebg.png?raw=true',
           },
         },
       },
@@ -188,7 +188,7 @@ export const Content120DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/node.jpg?raw=true',
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/node-removebg.png?raw=true',
           },
         },
       },
@@ -214,7 +214,7 @@ export const Content120DataSource = {
           wrapper: { className: 'block-content' },
           img: {
             children:
-              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/SQL.png?raw=true',
+              'https://github.com/angeld287/aangeles-portfolio/blob/master/src/Images/SQL-removebg.png?raw=true',
           },
         },
       },
